@@ -1,0 +1,290 @@
+body{
+  width: auto;
+  height: 100%;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 110%;
+}
+
+header {
+  text-align: center;
+}
+
+.headerimage img {
+  float: right;
+  width: 30%;
+  height: 10%;
+  margin-right: 50px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: #180000;
+  text-align: center;
+  padding-top: 150px;
+  font-family: sans-serif, serif;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Balsamiq Sans', cursive !important;
+}
+
+.intro {
+  width: 30%;
+  padding-top: 30px;
+  padding-left: 20%;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+#circlePosition {
+  margin-top: 5px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#circlePosition img {
+  width: 100%;
+  transition: transform .4s;
+}
+
+#circlePosition:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+
+#aboutMeWrapper {
+  background-image: url("/images/aboutMeInfoImg.png");
+  background-color: #c1d3f8;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 250px;
+  height: 700px;
+}
+
+#aboutMe {
+  color: #dddbdb;
+  padding-top: 250px;
+  font-size: 37px;
+  font-weight: bold;
+  transition: transform .2s;
+  margin: auto;
+}
+
+.aboutMePara {
+  text-align: center;
+  font-size: 20px;
+}
+
+#experience {
+  color: #906800;
+  padding-top: 110px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#experienceWrapper {
+  background-image: url("/images/experienceInfoImg.png");
+  background-color: #e4d5b0;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 300px;
+  height: 700px;
+}
+
+.experiHistory {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.noStyle { 
+  list-style: none; 
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+.listStyle {
+  text-align: center;
+  font-size: 16px;
+  list-style: none;
+}
+
+.listStyle2 {
+  text-align: center;
+  font-size: 16px;
+  list-style: none;
+}
+
+#skillsWrapper {
+  background-image: url("/images/skillsInfoImg.png");
+  background-color: #88be74;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 200px;
+  height: 700px;
+}
+
+#skills {
+  color: black;
+  margin-top: 100px;
+  padding-top: 160px;
+  font-size: 35px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+#educationWrapper {
+  background-image: url("/images/educationInfoImg.png");
+  background-color: #c5ae73;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 650px;
+  text-align: center;
+}
+
+#education {
+  color: #906800;
+  margin-top: 300px;
+  margin-bottom: 50px;
+  padding-top: 200px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.eduHistory {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.eduCurrent {
+  font-size: 20px;
+}
+
+.eduCurrent2 {
+  font-size: 20px;
+}
+
+#contactDetailsWrapper {
+  background-image: url("/images/contactInfoImg.png");
+  background-color: #a2b2d1;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin-top: 450px;
+  height: 700px;
+}
+
+#contact {
+  color: #001F5C;
+  padding-top: 250px;
+  font-size: 45px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.footer .img {
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  text-decoration: none;
+  padding-top: 80px;
+}
+
+.email {
+  margin-right: 50px;
+}
+
+.phone {
+  margin-right: 50px;
+}
+
+.linkedin {
+  margin-left: 10px;
+}
+
+.arrow {
+  padding-top: 180px;
+}
+
+.arrowEd {
+  padding-top: 130px;
+}
+
+.arrowA {
+  padding-top: 200px;
+}
+
+.arrowEx {
+  padding-top: 80px;
+}
+
+.arrowS {
+  padding-top: 90px;
+}
+
+@keyframes animatedButton {
+  0%   {border-radius: 0%;}
+  25%  {border-radius: 25%;}
+  50%  {border-radius: 50%;}
+  100% {border-radius: 100%;}
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+
+div #backToTop img {
+  width: 50px;
+  height: 50px;
+  animation-name: animatedButton;
+  animation-duration: 3s;
+  transition: width 1s, height 3s, transform 3s; 
+  transition: transform .4s; 
+}
+
+div #backToTop:hover img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+}
+
+.email:hover img {
+  width: 50px;
+  height: 50px;
+  animation: animatedButton 5s linear infinite;
+  animation-name: animatedButton;
+  animation-direction: reverse;
+  animation-duration: 3s;
+  animation-iteration-count: 1;  
+  transition: transform 3.5s; 
+}
+
+.phone:hover img {
+  width: 50px;
+  height: 50px;
+  animation: animatedButton 5s linear infinite;
+  animation-name: animatedButton;
+  animation-direction: reverse;
+  animation-duration: 5000ms;
+  animation-duration: 3s;
+  animation-iteration-count: 1;  
+  transition: transform 3.5s;
+}
+
+.linkedin:hover img {
+  width: 50px;
+  height: 50px;
+  animation: animatedButton 5s linear infinite;
+  animation-name: animatedButton;
+  animation-direction: reverse;
+  animation-duration: 3s;
+  animation-duration: 5000ms;
+  animation-iteration-count: 1;  
+  transition: transform 3.5s;
+}
